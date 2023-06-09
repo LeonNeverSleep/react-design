@@ -23,7 +23,7 @@ const Testimonials = () => {
   return (
     <div className="section" id="testimonials">
       <div className="mb-8">
-        <h2 className="text-[1.5rem] font-bold ">Testmonials</h2>
+        <h2 className="text-[1.5rem] font-bold ">团队成员</h2>
         <div className="w-14 h-[3px] bg-blue rounded-sm"></div>
       </div>
       <motion.div
@@ -64,7 +64,7 @@ const Testimonials = () => {
       </motion.div>
       <div className="text-center">
         <div className="text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] font-bold mb-2">
-          Wanna Start Work with me?
+          想要加入我们?
         </div>
         <p className="text-[0.9rem] opacity-80 mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing.

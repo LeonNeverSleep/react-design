@@ -2,14 +2,22 @@ import React, { useEffect, useState } from "react";
 import { navLinks } from "../Data";
 import { HiMenuAlt3 } from "react-icons/hi";
 import NavLinks from "./NavLinks";
+//引入store，用于获取redux中保存状态
+import store from "../redux/store/index";
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [isTop, setIsTop] = useState(false);
+  const [tt, setTt] = useState({});
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setIsTop(window.scrollY > 20);
     });
-  }, []);
+    store.subscribe(() => {
+      setTt({});
+    });
+  });
   return (
     <div
       className={`${
@@ -22,7 +30,11 @@ const Navbar = () => {
             A
           </div>
           <p className="text-xl">
-            Alex <span className="opacity-80">Smith</span>
+            LEX <span className="opacity-80">设计工作室</span>
+            <span className="text-[1.2rem] text-blue">
+              {" "}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粉丝:{store.getState()}
+            </span>
           </p>
         </div>
         <div className="md:flex hidden items-center gap-6">

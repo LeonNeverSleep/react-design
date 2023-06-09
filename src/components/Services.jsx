@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className="section" id="services">
       <div className="mb-8">
-        <h2 className="text-[1.5rem] font-bold ">What I Do</h2>
+        <h2 className="text-[1.5rem] font-bold ">经营范围</h2>
         <div className="w-14 h-[3px] bg-blue rounded-sm"></div>
       </div>
       <div className="grid sm:grid-cols-2 gap-8">

@@ -28,32 +28,32 @@ import { GoMailRead } from "react-icons/go";
 export const navLinks = [
   {
     id: 1,
-    text: "Home",
+    text: "首页",
     href: "home",
   },
   {
     id: 2,
-    text: "Projects",
+    text: "项目",
     href: "projects",
   },
   {
     id: 3,
-    text: "Services",
+    text: "服务",
     href: "services",
   },
   {
     id: 4,
-    text: "Blog",
+    text: "博客",
     href: "blog",
   },
   {
     id: 5,
-    text: "Testimonials",
+    text: "团队成员",
     href: "testimonials",
   },
   {
     id: 6,
-    text: "Contact",
+    text: "联系我们",
     href: "contact",
   },
 ];
@@ -62,47 +62,47 @@ export const services = [
   {
     id: 1,
     icon: <ImPencil />,
-    title: "Copywrite",
+    title: "文案",
   },
   {
     id: 2,
     icon: <BsShop />,
-    title: "Ecommerce",
+    title: "电子商务",
   },
   {
     id: 3,
     icon: <TiDeviceDesktop />,
-    title: "Web Design",
+    title: "网页设计",
   },
   {
     id: 4,
     icon: <TbSpeakerphone />,
-    title: "Marketing",
+    title: "市场营销",
   },
 ];
 export const serviceFinishes = [
   {
     id: 1,
     icon: <BsHeart />,
-    text: "Happy Clients",
+    text: "用户好评",
     amount: 566,
   },
   {
     id: 2,
     icon: <BsWatch />,
-    text: "Working Hours",
+    text: "工作时长",
     amount: 5335,
   },
   {
     id: 3,
     icon: <BsStar />,
-    text: "Awards Won",
+    text: "获得荣誉",
     amount: 13,
   },
   {
     id: 4,
     icon: <BiCoffeeTogo />,
-    text: "Coffee Consumed",
+    text: "代码消耗咖啡杯数",
     amount: 1189,
   },
 ];
@@ -155,22 +155,22 @@ export const blogs = [
   {
     id: 1,
     image: blog1,
-    title: "What Skills Do You Need for Marketing in 2023?",
+    title: "2023年的市场营销需要哪些技能?",
   },
   {
     id: 2,
     image: blog2,
-    title: "What is Web Design? A Comprehensive Guide",
+    title: "什么是网页设计?--综合指南",
   },
   {
     id: 3,
     image: blog3,
-    title: "100 Best Web Design Blogs You Must Read in 2023",
+    title: "2023年你必须阅读的100个最佳网页设计博客",
   },
   {
     id: 4,
     image: blog4,
-    title: "How to Learn Web Design at Home",
+    title: "如何在家学习网页设计",
   },
 ];
 
@@ -178,20 +178,20 @@ export const testimonials = [
   {
     id: 1,
     image: testimonial1,
-    name: "Billy Adams",
-    business: "Rolling Thunder",
+    name: "比利 亚当斯",
+    business: "主管",
   },
   {
     id: 2,
     image: testimonial2,
-    name: "Gary Jhonson",
-    business: "Car Accessories",
+    name: "格里 加纳森",
+    business: "产品经理",
   },
   {
     id: 3,
     image: testimonial3,
-    name: "Venissa",
-    business: "Fashin Shop",
+    name: "维尼莎",
+    business: "UI设计",
   },
 ];
 
@@ -199,16 +199,16 @@ export const contacts = [
   {
     id: 1,
     icon: <TfiHeadphoneAlt />,
-    text: "+959-883-271-929",
+    text: "+86 123456789",
   },
   {
     id: 2,
     icon: <HiOutlineLocationMarker />,
-    text: "28 Green Tower, street Name, New York, USA",
+    text: "福建省福州市",
   },
   {
     id: 3,
     icon: <GoMailRead />,
-    text: "jhonsmitch2002@gmail.com",
+    text: "4543543dfged@gmail.com",
   },
 ];
